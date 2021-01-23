@@ -1,0 +1,6 @@
+@import url(./__link/lang__link.css);
+@import url(./__link/_active/lang__link_active.css);
+.lang {
+    margin: 0;
+    padding: 0; 
+}
