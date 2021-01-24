@@ -1,0 +1,23 @@
+.grid__wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: 1184px;
+}
+
+@media screen and (max-width: 1064px) {
+    .grid__wrapper {
+        width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid__wrapper {
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .grid__wrapper {
+        width: calc(100% - 32px);
+    }
+}
