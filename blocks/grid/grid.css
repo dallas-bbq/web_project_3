@@ -1,1 +1,23 @@
-@import url(./__wrapper/grid__wrapper.css);
+.grid {
+    margin: 0 auto;
+    padding: 0;
+    width: 1184px;
+}
+
+@media screen and (max-width: 1064px) {
+    .grid {
+        width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .grid {
+        width: calc(100% - 32px);
+    }
+}
