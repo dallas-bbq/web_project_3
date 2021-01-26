@@ -1,0 +1,31 @@
+.cover__overlay {
+    background-image: url(../../../images/cover-background.svg);
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.cover__overlay::before {
+    content: "";
+    background-color: rgba(3, 17, 16, 0.29);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.cover__overlay:hover::before {
+    content: "";
+    background-color: rgba(3, 17, 16, 0.6);
+}
+
+@media screen and (max-width: 768px) {
+    .cover__overlay {
+    }
+}
