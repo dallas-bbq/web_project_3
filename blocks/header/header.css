@@ -1,3 +1,6 @@
+@import url(./__links/header__links.css);
+@import url(./__link/header__link.css);
+@import url(./__link/_active/header__link_active.css);
 .header {
     width: 100%;
     margin: 0 auto;

@@ -1,18 +1,19 @@
-.lang__link {
+.header__link {
     font-size: 24px;
     line-height: 1;
+    list-style: none;
     text-decoration: none;
     font-weight: normal;
     margin: 0;
     padding: 0;
 }
 
-.lang__link:last-of-type {
+.header__link:last-of-type {
     margin-left: 18px;
 }
 
 @media screen and (max-width: 320px) {
-    .lang__link {
+    .header__link {
         font-size: 18px;
     }
 }

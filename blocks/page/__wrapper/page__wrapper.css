@@ -4,7 +4,7 @@
     width: calc(1280px - 296px);
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .page__wrapper {
         width: calc(100% - 96px);
     }
@@ -16,7 +16,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .page__wrapper {
         width: calc(100% - 32px);
     }
