@@ -1,13 +1,8 @@
 .grid {
     margin: 0 auto;
     padding: 0;
-    width: 1184px;
-}
-
-@media screen and (max-width: 1064px) {
-    .grid {
-        width: calc(100% - 96px);
-    }
+    max-width: 1184px;
+    width: calc(100% - 96px);
 }
 
 @media screen and (max-width: 768px) {

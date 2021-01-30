@@ -1,21 +1,6 @@
 .lead__image {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
+    max-width: 984px;
     width: 100%;
-}
-
-@media (min-width: 321px) and (max-width: 768px) {
-    .lead__image {
-        display: block;
-        left: 50%;
-        position: relative;
-        transform: translateX(-50%);
-        width: 100vw;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead__image {
-        width: 320px;
-    }
 }

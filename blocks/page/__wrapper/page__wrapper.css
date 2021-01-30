@@ -1,10 +1,10 @@
 .page__wrapper {
     margin: 0 auto;
     padding: 0;
-    width: calc(1280px - 296px);
+    max-width: calc(1280px - 296px);
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1279px) {
     .page__wrapper {
         width: calc(100% - 96px);
     }
@@ -12,12 +12,6 @@
 
 @media screen and (max-width: 768px) {
     .page__wrapper {
-        width: calc(100% - 48px);
-    }
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-    .page__wrapper {
-        width: calc(100% - 32px);
+        width: 100%;
     }
 }
