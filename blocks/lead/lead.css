@@ -13,9 +13,3 @@
         padding-top: 50px;
     }
 }
-
-@media screen and (max-width: 768px) {
-    .lead {
-        margin: 0 auto;
-    }
-}
