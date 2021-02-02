@@ -6,14 +6,6 @@
     align-self: end;
 }
 
-@media screen and (max-width: 768px) {
-    .place__website {
-        margin-left: 24px;
-    }
-}
-
-
-
 @media screen and (max-width: 320px) {
     .place__website {
         display: none;
