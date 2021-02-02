@@ -9,10 +9,10 @@
     width: calc(100% - 148px);
 }
 
-@media screen and (max-width: 368px) {
+@media (min-width: 320px) and (max-width: 470px) {
     .lead__subtitle {
         font-size: 16px;
         padding: 16px 0 40px 0;
-        width: calc(100% - 32px);
+        max-width: calc(100% - 32px);
     }
 }

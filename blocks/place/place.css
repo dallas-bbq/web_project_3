@@ -13,12 +13,19 @@
     grid-gap: 32px;
 }
 
-@media (min-width:321px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .place {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (min-width:321px) and (max-width: 767px) {
     .place {
         padding-top: 72px;
         padding-left: 24px;
         padding-right: 24px;
-        grid-template-columns: repeat(1, 100%);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
